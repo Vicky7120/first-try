@@ -1,0 +1,28 @@
+*{
+    background-color: antiquewhite;
+}
+.App{
+    padding: 20px;
+}
+
+#form{
+    padding: 20px;
+    
+}
+
+#name, #age ,#date{
+    padding:5px;
+}
+
+.table{
+  
+    margin: 10px;
+    display:inline-block;
+    
+}
+
+th, td{
+    border: solid black 1px;
+    padding: 10px;
+}
+
