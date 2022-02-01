@@ -1,0 +1,259 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    }
+
+body{
+    overflow-x: hidden;
+}
+
+nav{
+    width:95%;
+    position: sticky;
+    margin: 0px 25px;
+    display: flex;
+    z-index: 1;
+    align-items: center;
+}      /*to vertically center the data present in the container*/
+
+
+
+.logo{
+    flex-basis:8%;
+}
+
+
+.logo img{
+    width: 70px;
+}
+
+.nav-links-header {
+    padding:0px;
+    flex: auto;    
+}
+
+.nav-links-header ul{
+    list-style: none;
+
+}
+
+.nav-links-header li{
+    float: left;
+    display: inline;
+}
+
+.nav-links-header li a{
+    color: black;
+    padding:28 14px;   
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.nav-links-header ul li:hover{
+    background-color: #04AA6D;
+    color: white;
+    display: inline-block;
+}
+
+.heading-right li{
+    list-style: none;
+    padding: 10 28px;
+    display: inline-block;
+}
+
+.heading-right li a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/*.nav-links-header{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links-header ul li{
+    list-style: none;
+    display: inline-block;
+    background-color: #04AA6D;
+    padding: 20px;
+    cursor: pointer ;
+
+}
+
+.nav-links-header ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    
+}
+
+.nav-links-header ul li:hover{
+    background-color: teal;
+    color: white;
+    display: inline-block;
+}
+
+.heading-right li{
+    list-style: none;
+    padding: 10 28px;
+    display: inline-block;
+}
+
+.heading-right li a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+*/
+
+/* buttons */
+.login{
+    padding: 16 30px;
+    display: inline-block;    
+    color:white;
+    background-color: #04AA6D;
+    text-decoration: none;
+    font-size: 16px;
+    border:none;
+    border-radius: 50px;
+    cursor:pointer;
+}
+
+.button:hover{
+    background-color:#339966;
+}
+
+.button1{
+    border: none;
+    background-color: #04AA6D;
+    color: white;
+    padding: 16 30px;
+    text-decoration: none;
+    margin: 25 0 20 0px;
+    border-radius: 6px;
+    cursor:pointer;
+    font-size: 15px;
+}
+
+.fa-home:hover{
+    background-color: #04AA6D;
+}
+.fa-search:hover{
+    background-color: #04AA6D;
+}
+.fa-globe:hover{
+    background-color: #04AA6D;
+}
+.fa-adjust:hover{
+    background-color: #04AA6D;
+}
+
+
+.nav-links-scnd-header{
+    padding: 0px;  
+}
+
+.nav-links-scnd-header ul {
+    list-style: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden; 
+    background-color: #333333;     
+}
+
+.nav-links-scnd-header li {
+    float: left;
+}
+
+.nav-links-scnd-header li a{
+  display:block;
+  color:white;
+  padding: 13px 15px;
+  text-decoration: none;
+} 
+
+.nav-links-scnd-header ul li a:hover {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.total{
+    display:flex;
+    
+}
+
+.sidenav{
+   flex:15%;
+   background-color: #f2f2f2;
+   padding:20px;
+   height: 100vh ;
+   overflow-y: auto;
+}
+
+
+.sidenav a{
+    padding: 6px 0px 6px 17px;
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    display:block;
+}
+.sidenav a:hover{
+    background-color: #cccccc;
+}
+
+.main {
+    flex:85%;
+    background-color: white;
+}
+
+.program p{
+    background-color: #d3e5f3;    
+    padding: 50px 35px;
+    margin-bottom: 70px;
+    font-size: 17px;
+}
+
+#tutorials{
+    display:none;
+    background-color: #1a1a1a;
+    width: 100%;
+    position: absolute;
+    padding: 140px;   
+       
+}
+
+
+
+#tutorials a{
+    display:block;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 25px;
+}
+
+   
+
+.tutorials-frst a{  
+     padding-bottom: 20px;
+     padding-right:110px;
+}
+
+.tutorials-scnd a{   
+     padding-bottom: 20px;
+     padding-right: 110px;
+}
+.tutorials-third a{
+     padding-bottom: 20px;
+     padding-right:110px;
+}
+.tutorials-fourth a{
+     padding-bottom: 20px;
+     padding-right:110px;
+}
+
